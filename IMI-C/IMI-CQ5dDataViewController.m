@@ -42,7 +42,7 @@
     self.q5eAArray = [NSArray arrayWithObjects: NSLocalizedString(@"q5dA0", nil),NSLocalizedString(@"q5dA1", nil),NSLocalizedString(@"q5dA2", nil),nil];
     self.q5fT.text=NSLocalizedString(@"q5fT", nil);
     self.SkiptonextpageLabel.text=NSLocalizedString(@"SkiptonextpageLabel", nil);
-    self.q5dT.hidden=self.q5dA.hidden=self.q5eT.hidden=self.q5eA.hidden=![[self.imi_cModelController.gloableData objectForKeyedSubscript:@"question5aPedestrianoverpassunderpassbridgeIsOn"] boolValue];
+    self.q5dT.hidden=self.q5dA.hidden=self.q5eT.hidden=self.q5eA.hidden=[[self.imi_cModelController.gloableData objectForKeyedSubscript:@"question5aPedestrianoverpassunderpassbridgeIsOn"] boolValue];
     //self.q5fT.hidden=self.q5fA.hidden=![[self.imi_cModelController.gloableData objectForKeyedSubscript:@"question5aPedestriansignalactivatedIsOn"] boolValue];
     //self.SkiptonextpageLabel.hidden=[[self.imi_cModelController.gloableData objectForKeyedSubscript:@"question5aPedestrianoverpassunderpassbridgeIsOn"] boolValue]||[[self.imi_cModelController.gloableData objectForKeyedSubscript:@"question5aPedestriansignalactivatedIsOn"] boolValue];
 }

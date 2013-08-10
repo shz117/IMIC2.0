@@ -34,6 +34,8 @@
 	// Do any additional setup after loading the view.
     self.q55Array = [NSArray arrayWithObjects:@"NA",@"newer/mordern",@"mix of older/historic and modern",@" older/historic", nil];
     self.q56Array = [NSArray arrayWithObjects:@"NA",@"buildings are mostly all one/similar color",@" buildings are variety of colors", nil];
+    self.q56A.dataSource=self;
+    self.q56A.delegate=self;
     
 }
 

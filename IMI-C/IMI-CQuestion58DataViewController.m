@@ -11,12 +11,9 @@
 @interface IMI_CQuestion58DataViewController ()
 
 @property (weak, nonatomic) IBOutlet UILabel *DogsLabel;
-@property (weak, nonatomic) IBOutlet UILabel *question59Label;
 @property (weak, nonatomic) IBOutlet UISwitch *question59Answer;
 @property (weak, nonatomic) IBOutlet UILabel *OlfactoryLabel;
-@property (weak, nonatomic) IBOutlet UILabel *question60Label;
 @property (weak, nonatomic) IBOutlet UISwitch *question60Answer;
-@property (weak, nonatomic) IBOutlet UILabel *question61Label;
 @property (weak, nonatomic) IBOutlet UISwitch *question61Answer;
 @property (weak, nonatomic) IBOutlet UILabel *GotonextpagetoinputcommentsLabel;
 @property (nonatomic, retain) NSArray *question58AnswerArray;
@@ -39,10 +36,7 @@
 	// Do any additional setup after loading the view.
     self.question58AnswerArray = [NSArray arrayWithObjects: NSLocalizedString(@"question58Answer0", nil),NSLocalizedString(@"question58Answer1", nil),NSLocalizedString(@"question58Answer2", nil),NSLocalizedString(@"question58Answer3", nil),nil];
     self.DogsLabel.text=NSLocalizedString(@"DogsLabel", nil);
-    self.question59Label.text=NSLocalizedString(@"question59Label", nil);
     self.OlfactoryLabel.text=NSLocalizedString(@"OlfactoryLabel", nil);
-    self.question60Label.text=NSLocalizedString(@"question60Label", nil);
-    self.question61Label.text=NSLocalizedString(@"question61Label", nil);
     self.GotonextpagetoinputcommentsLabel.text=NSLocalizedString(@"GotonextpagetoinputcommentsLabel", nil);
 }
 

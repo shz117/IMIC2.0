@@ -93,6 +93,7 @@
 		F97DAB6D16FC13EC001B78F4 /* SurveyIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F97DAB6C16FC13EB001B78F4 /* SurveyIcon.png */; };
 		F9CB7E8E173B170500E5DA2F /* Dropbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CB7E8D173B170500E5DA2F /* Dropbox.framework */; };
 		F9DB753A17B676EB003C657C /* IMI_CQuestion62DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DB753917B676EB003C657C /* IMI_CQuestion62DataViewController.m */; };
+		F9DB753D17B68E7F003C657C /* IMI_CWelcomeDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DB753C17B68E7F003C657C /* IMI_CWelcomeDataViewController.m */; };
 		F9F3392E1714662400AFADB1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F3392D1714662400AFADB1 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
@@ -261,6 +262,8 @@
 		F9CB7E8D173B170500E5DA2F /* Dropbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Dropbox.framework; path = "../../../../Desktop/IOS相关/demos&sdks/dropbox-ios-sync-sdk-1.0.7/Dropbox.framework"; sourceTree = "<group>"; };
 		F9DB753817B676EB003C657C /* IMI_CQuestion62DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMI_CQuestion62DataViewController.h; sourceTree = "<group>"; };
 		F9DB753917B676EB003C657C /* IMI_CQuestion62DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMI_CQuestion62DataViewController.m; sourceTree = "<group>"; };
+		F9DB753B17B68E7F003C657C /* IMI_CWelcomeDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMI_CWelcomeDataViewController.h; sourceTree = "<group>"; };
+		F9DB753C17B68E7F003C657C /* IMI_CWelcomeDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMI_CWelcomeDataViewController.m; sourceTree = "<group>"; };
 		F9F3392D1714662400AFADB1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -469,6 +472,8 @@
 				F94D837E17B5E676006A0A34 /* IMI_CBuildAgeDataViewController.m */,
 				F9DB753817B676EB003C657C /* IMI_CQuestion62DataViewController.h */,
 				F9DB753917B676EB003C657C /* IMI_CQuestion62DataViewController.m */,
+				F9DB753B17B68E7F003C657C /* IMI_CWelcomeDataViewController.h */,
+				F9DB753C17B68E7F003C657C /* IMI_CWelcomeDataViewController.m */,
 			);
 			path = "IMI-C";
 			sourceTree = "<group>";
@@ -626,6 +631,7 @@
 				F94D837C17B59036006A0A34 /* IMI_CQuestion38dDataViewController.m in Sources */,
 				F94D837F17B5E676006A0A34 /* IMI_CBuildAgeDataViewController.m in Sources */,
 				F9DB753A17B676EB003C657C /* IMI_CQuestion62DataViewController.m in Sources */,
+				F9DB753D17B68E7F003C657C /* IMI_CWelcomeDataViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

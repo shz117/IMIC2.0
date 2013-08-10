@@ -44,6 +44,8 @@
     // Dispose of any resources that can be recreated.
 }
 -(void)setImi_cResults{
+    
+
     self.dataArray = [NSArray arrayWithObjects:[self.question1Answer isOn] ? @"1" : @"0", nil];
     [super setImi_cResults];
 }

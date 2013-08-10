@@ -90,7 +90,7 @@
     if (!self.question30Answer.isHidden) {
         question30AnswerValue=[self.question30Answer selectedRowInComponent:0];
     }
-    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d", question29bAnswerValue],[NSString stringWithFormat:@"%d", question30AnswerValue], nil];
+    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d",buildheightAnswerValue],[NSString stringWithFormat:@"%d", question29bAnswerValue],[NSString stringWithFormat:@"%d", question30AnswerValue], nil];
 }
 - (void)viewDidUnload {
     [self setBuildheightA:nil];

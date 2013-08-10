@@ -2839,7 +2839,7 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="37. Are there podium buildings on this segment?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="81A-gH-5Pz">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="38a. Are there podium buildings on this segment?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="81A-gH-5Pz">
                                         <rect key="frame" x="20" y="273" width="477" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -3146,21 +3146,21 @@
                                 <rect key="frame" x="20" y="49" width="984" height="679"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="43. How much graffiti is apparent on this segment?" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eue-42-u3l">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="44. How much graffiti is apparent on this segment?" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eue-42-u3l">
                                         <rect key="frame" x="0.0" y="20" width="230" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="44. How much litter is apparent on this segment?" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Yrj-Wa-k2z">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="45. How much litter is apparent on this segment?" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Yrj-Wa-k2z">
                                         <rect key="frame" x="238" y="20" width="230" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="45. Are there dumpsters visible on this segment?" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Sky-P9-UhZ">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="46. Are there dumpsters visible on this segment?" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Sky-P9-UhZ">
                                         <rect key="frame" x="476" y="20" width="230" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -3259,14 +3259,10 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
-                        <outlet property="LightingLabel" destination="MJs-Io-Pdr" id="VIf-Ep-6ee"/>
                         <outlet property="q47A" destination="0SQ-qI-P7w" id="5OO-gB-lqx"/>
                         <outlet property="question43Answer" destination="klc-dd-bRj" id="FYk-MQ-ron"/>
-                        <outlet property="question43Label" destination="eue-42-u3l" id="4Ab-QT-Imy"/>
                         <outlet property="question44Answer" destination="8m8-zx-cvp" id="ulU-Sc-jvy"/>
-                        <outlet property="question44Label" destination="Yrj-Wa-k2z" id="U5A-DS-cgc"/>
                         <outlet property="question45Answer" destination="b6p-lJ-4Ph" id="Atm-Ep-c10"/>
-                        <outlet property="question45Label" destination="Sky-P9-UhZ" id="nkZ-a5-B3H"/>
                         <outlet property="question46aAnswer" destination="k3Y-1s-gLt" id="xau-Gk-eQh"/>
                         <outlet property="question46bAnswer" destination="zzz-nD-HYk" id="0Ku-kg-qzy"/>
                         <outlet property="question46bLabel" destination="8xM-Ne-ZN6" id="m9H-pB-4Ts"/>
@@ -3498,9 +3494,6 @@
                         <outlet property="question49SpeedLabel" destination="Uts-Cs-BWi" id="hvh-BN-qUF"/>
                         <outlet property="question49TrafficAnswer" destination="bsd-W3-xYD" id="AuY-9B-fVd"/>
                         <outlet property="question49TrafficLabel" destination="LzV-Rk-G3W" id="TcA-Ec-gN7"/>
-                        <outlet property="question50aAnswer" destination="EZP-Os-OBg" id="Bbt-B6-dFD"/>
-                        <outlet property="question50aLabel" destination="Ub3-TN-DqN" id="Rz5-UV-kJF"/>
-                        <outlet property="question50bLabel" destination="uwS-s7-yqi" id="9Fm-ad-WVr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1b7-ic-Txa" sceneMemberID="firstResponder"/>
@@ -3738,21 +3731,21 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="59. Are there any loose/unsupervised/barking dogs on this segment that seem menacing?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RE2-Sq-CbF">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="63. Are there any loose/unsupervised/barking dogs on this segment that seem menacing?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RE2-Sq-CbF">
                                         <rect key="frame" x="20" y="49" width="676" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="60. Is the dominant smell unpleasant? " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Xc6-PD-VvH">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="64. Is the dominant smell unpleasant? " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Xc6-PD-VvH">
                                         <rect key="frame" x="20" y="107" width="292" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="61. Is air pollution detectable by sight or smell from where you are standing?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UOs-j7-m7n">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="65. Is air pollution detectable by sight or smell from where you are standing?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UOs-j7-m7n">
                                         <rect key="frame" x="20" y="136" width="574" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -3792,11 +3785,8 @@
                         <outlet property="GotonextpagetoinputcommentsLabel" destination="KCc-3W-WhT" id="Q97-hB-Hgr"/>
                         <outlet property="OlfactoryLabel" destination="t0r-xd-h0r" id="5hr-w1-4ib"/>
                         <outlet property="question59Answer" destination="Qnl-Iy-h9f" id="1dM-73-Kbr"/>
-                        <outlet property="question59Label" destination="RE2-Sq-CbF" id="zOU-t3-o3T"/>
                         <outlet property="question60Answer" destination="E2U-nV-j5c" id="HOZ-oG-iIn"/>
-                        <outlet property="question60Label" destination="Xc6-PD-VvH" id="2WS-zy-yN0"/>
                         <outlet property="question61Answer" destination="0bp-2H-Euj" id="gMe-EB-OCC"/>
-                        <outlet property="question61Label" destination="UOs-j7-m7n" id="AaS-38-1ZF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L42-ce-5di" sceneMemberID="firstResponder"/>
@@ -6632,975 +6622,40 @@
             </objects>
             <point key="canvasLocation" x="37398" y="1376"/>
         </scene>
+        <!--Welcome Data View Controller-->
+        <scene sceneID="HzA-L2-ZRh">
+            <objects>
+                <viewController storyboardIdentifier="IMI_CWelcomeDataViewController" id="UNy-oL-J12" customClass="IMI_CWelcomeDataViewController" sceneMemberID="viewController">
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="flK-IZ-RnH">
+                        <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="Rsg-eS-uO3">
+                                <rect key="frame" x="20" y="49" width="984" height="679"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Welcome!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7cx-0e-5GU">
+                                        <rect key="frame" x="446" y="329" width="93" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97826086960000003" green="0.91848131079999995" blue="0.73914263440000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackTranslucent"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TgB-E1-CIc" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1793" y="-215"/>
+        </scene>
     </scenes>
-    <classes>
-        <class className="IMI_CArchitectureDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CArchitectureDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="ArchitectureLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="q54A" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question51Answer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question51Label" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CBicyclesDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CBicyclesDataViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="question19aAction:"/>
-                <relationship kind="outlet" name="BicyclesLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question19aAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question19aLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question19bAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question19bLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CBuildAgeDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CBuildAgeDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="q55A" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="q56A" candidateClass="UIPickerView"/>
-            </relationships>
-        </class>
-        <class className="IMI_CBuildingsDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CBuildingsDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="BuildingsLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="buildheightA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question29aLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question29bAnswe" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question29bLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question30Answer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question30Label" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CCommentsDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CCommentsDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="CommentsAnswer" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="CommentsLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CCommercialDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CCommercialDataViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="CommercialotherAction:" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="BankfinancialAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="BankfinancialLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="BicyclerelatedretailA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="BicyclerelatedretailL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="CardealershipA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="CardealershipL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="CommercialL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="CommercialotherA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="CommercialotherL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="FastfoodA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="FastfoodL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="GasservicestationA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="GasservicestationL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="HardgoodretailstoresA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="HardgoodretailstoresL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="HotelhospitalityA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="HotelhospitalityL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="MediumorlargegrocerystoreA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="MediumorlargegrocerystoreL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Otherretailstores" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="OtherretailstoresA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="RestaurantsnonfastfoodA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="RestaurantsnonfastfoodL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="SmallgrocerystoreA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="SmallgrocerystoreL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="SoftgoodretailstoresA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="SoftgoodretailstoresL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="chainstore" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="localstore" candidateClass="UISwitch"/>
-            </relationships>
-        </class>
-        <class className="IMI_CCommunityViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CCommunityViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="question2aAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question2aTitle" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question2bAnswer" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="question2bTitle" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question2cAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question2cTitle" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CConveniencestoreDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CConveniencestoreDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="ArtorcraftgalleriesA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="ArtorcraftgalleriesL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="ConveniencestoreA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="ConveniencestoreL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="FarmersmarketA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="FarmersmarketL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="GthrOthr" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="InformalsellersL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="WinebarsloungesA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="WinebarsloungesL" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CDataViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CDataViewController.h"/>
-        </class>
-        <class className="IMI_CElectricalpolesDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CElectricalpolesDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="ElectricalpolesA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="ElectricalpolesL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="OutdoordiningA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="OutdoordiningL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="SkiptonextpageLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CFreewaysDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CFreewaysDataViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="question48Action:" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="FreewaysLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="TrafficFeaturesLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question47Answer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question47Label" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question48Answer" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="question48Label" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question48Switch" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question49b" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CMaintenanceDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CMaintenanceDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="MaintenanceLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question41Answer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question41Label" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question42Answer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question42Label" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CMidBlockCrossingDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CMidBlockCrossingDataViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="question23aAction:"/>
-                <relationship kind="action" name="question23bOtherAction:"/>
-                <relationship kind="outlet" name="MbPedLghtA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="MbPedLghtL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="MidBlockCrossingLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question23aAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question23aLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question23bColoredpaintedlinesAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question23bColoredpaintedlinesLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question23bDifferentroadsurfaceorpavingAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question23bDifferentroadsurfaceorpavingLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question23bLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question23bOtherAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question23bOtherLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question23bWhitepaintedlinesAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question23bWhitepaintedlinesLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question23bZebrastripingAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question23bZebrastripingLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question23cAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question23cLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_COfficeDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_COfficeDataViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="IndustrialotherAction:" candidateClass="UISwitch"/>
-                <relationship kind="action" name="OfficeserviceotherAction:" candidateClass="UISwitch"/>
-                <relationship kind="action" name="Question13aOtherOtherAction:" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="AgriculturallandranchfarmingA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="AgriculturallandranchfarmingL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="HarbormarinaA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="HarbormarinaL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="IndustrialManufacturingL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="IndustrialotherA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="IndustrialotherL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="LightindustrialA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="LightindustrialL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="MediumorheavyindustrialA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="MediumorheavyindustrialL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="NaturefeatureA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="NaturefeatureL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="OfficeServiceL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="OfficesA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="OfficesL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="OfficeserviceotherA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="OfficeserviceotherL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Question13aOtherL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Question13aOtherOtherA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="Question13aOtherOtherL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="ServicefacilitiesA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="ServicefacilitiesL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="SiteunderconstructionA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="SiteunderconstructionL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="UndevelopedlandA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="UndevelopedlandL" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_COtherFBuidsDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_COtherFBuidsDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="q36A" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="q36cA" candidateClass="UIPickerView"/>
-            </relationships>
-        </class>
-        <class className="IMI_CParkingDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CParkingDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="ParkingLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question38aAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question38aLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question38bAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question38bLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question38cAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question38cLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CPublicCivicBuildingDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CPublicCivicBuildingDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="BicyclerelatedretailA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="BicyclerelatedretailL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="CardealershipA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="CardealershipL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="CommercialL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="CommercialotherA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="CommercialotherL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="CommunitycenterorlibraryA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="CommunitycenterorlibraryL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="FastfoodA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="FastfoodL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="GasservicestationA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="GasservicestationL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="HardgoodretailstoresA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="HardgoodretailstoresL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="HospitalmedicalfacilityhealthclinicA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="HospitalmedicalfacilityhealthclinicL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="HotelhospitalityA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="HotelhospitalityL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="InstitutionalL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="InstitutionalotherA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="InstitutionalotherL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="MediumorlargegrocerystoreA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="MediumorlargegrocerystoreL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="MuseumauditoriumconcerthalltheaterA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="MuseumauditoriumconcerthalltheaterL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="OfficeServiceL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="OfficesA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="OfficesL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="OfficeserviceotherA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="OfficeserviceotherL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="PostofficepolicestationcourthouseDepartmentofMotorVehiclesA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="PostofficepolicestationcourthouseDepartmentofMotorVehiclesL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="PublicCivicBuildingL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="PublicbuildingotherA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="PublicbuildingotherL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="ReligiousinstitutionA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="ReligiousinstitutionL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="RestaurantsnonfastfoodA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="RestaurantsnonfastfoodL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="ServicefacilitiesA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="ServicefacilitiesL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="SmallgrocerystoreA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="SmallgrocerystoreL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="SoftgoodretailstoresA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="SoftgoodretailstoresL" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQ11DataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQ11DataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="alleyA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="alleyL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="intendedA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="intendedL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="narrowA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="narrowL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="q11A" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="q11L" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="q12aA" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="q12aL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="q12bA" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="q12bL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="q12cA" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="q12cL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="streetL" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQ5dDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQ5dDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="SkiptonextpageLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="q5dA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="q5dT" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="q5eA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="q5eT" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="q5fA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="q5fT" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQ6aDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQ6aDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="q6cA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="q6cT" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="q7A" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="q7T" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question6" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question6Answer" candidateClass="UIPickerView"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQ8DataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQ8DataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="q8A" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="q8T" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="q9A" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="q9T" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestioin14bDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestioin14bDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="question14bA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question14bL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question14cA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question14cL" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestioin21cDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestioin21cDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="SkiptonextpageLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question19cBusstopAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question19cBusstopLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question19cLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question19cMovingvehiclesAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question19cMovingvehiclesLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question19cOtherAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question19cOtherLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question19cParkedbicyclesormotorcyclesAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question19cParkedbicyclesormotorcyclesLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question19cParkedcarsAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question19cParkedcarsLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question19cPedestriansAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question19cPedestriansLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion10_12DataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion10_12DataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="NeighborhoodIdentificationLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="q10A" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="q10T" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="q7_11T" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion13bDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion13bDataViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="question13cOtherAction:" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="Question13cServiceAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="Question13cServiceLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="questioin13bA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="questioin13bL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question13cL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question13cOfficeA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question13cOfficeL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question13cOtherA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question13cOtherL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question13cRestaurantsLA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question13cRestaurantsLL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question13cRetailA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question13cRetailL" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion13dDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion13dDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="SkiptonextpageLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question13dRetailA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question13dRetailL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question13dServiceA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question13dServiceL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="quetion13dCommercialA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="quetion13dCommercialL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="quetion13dL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="quetion13dOfficeA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="quetion13dOfficeL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="quetion13dOtherA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="quetion13dOtherL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="quetion13dResidentialA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="quetion13dResidentialL" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion13eDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion13eDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="BigboxshopsA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="BigboxshopsL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="DrivethruA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="DrivethruL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="RowofshopsA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="RowofshopsL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="ShoppingmallA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="ShoppingmallL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="StripmallrowofshopsA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="StripmallrowofshopsL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question13eA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question13eL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question13fL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question13gA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question13gL" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion14aDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion14aDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="BeachA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="BeachL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="ParkplaygroundA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="ParkplaygroundL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="PlayingorsportfieldA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="PlayingorsportfieldL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="PlazasquarecourtyardA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="PlazasquarecourtyardL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="PublicgardenA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="PublicgardenL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question14aL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question14aOtherA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question14aOtherL" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion15DataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion15DataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="AdultusesA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="AdultusesL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="BarsnightclubsA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="BarsnightclubsL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="CheckcashingstoresA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="CheckcashingstoresL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="OtherLandUsesL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question15L" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question15OtherA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question15OtherL" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion16DataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion16DataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="CoffeeshopsA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="CoffeeshopsL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="LibrariesbookstoresA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="LibrariesbookstoresL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question16L" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question16RestaurantsA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question16RestaurantsL" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion17cDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion17cDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="SkiptonextpageLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question17cA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question17cL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question17dA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question17dL" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion17eDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion17eDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="ArcadesA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="ArcadesL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="AwningsA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="AwningsL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="SkiptonextpageLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question17eL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question17eOtherA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question17eOtherL" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion17fDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion17fDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="BollardsA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="BollardsL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="FenceorguardrailA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="FenceorguardrailL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="LandscapingA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="LandscapingL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="ParkedcarsA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="ParkedcarsL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="SkiptonextpageLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="StreettreesA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="StreettreesL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question17fL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question17fOtherA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question17fOtherL" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion17gDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion17gDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="ParkedbicyclesormotorcyclesA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="ParkedbicyclesormotorcyclesL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="ParkedcarsA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="ParkedcarsL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="SkiptonextpageLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="StreetvendorsorinformalsellersA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="StreetvendorsorinformalsellersL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="TreesplantedinthemiddleofthesidewalkA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="TreesplantedinthemiddleofthesidewalkL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question17gL" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion17gOtherDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion17gOtherDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="question17gOtherA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question17gOtherL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question18Answer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question18Label" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question19A" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question19L" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion1_9DataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion1_9DataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="neighborhoodIdentificationTitle" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question1Answer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question1Title" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="questions1_6Title" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion20DataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion20DataViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="question21OtherAction:"/>
-                <relationship kind="outlet" name="question20Answer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question20Label" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question21BikeparkingcoveredAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question21BikeparkingcoveredLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question21BikeparkinguncoveredAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question21BikeparkinguncoveredLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question21BikeracksAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question21BikeracksLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question21Label" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question21OtherAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question21OtherLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question22Answer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question22Label" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion26DataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion26DataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="fountains" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question26BenchesAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question26BenchesLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question26BusAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question26BusLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question26HeatAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question26HeatLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question26Label" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question26LedgesAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question26LedgesLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question27Answer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question27Label" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion2cDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion2cDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="question3cAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question3cTitle" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question3dAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question3dTitle" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion38bDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion38bDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="q38c1A" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="q38c2A" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="q38c3A" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question38bA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question38bL" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion38dDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion38dDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="q38dA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="q38eA" candidateClass="UIPickerView"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion39aDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion39aDataViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="question39aAction:"/>
-                <relationship kind="outlet" name="DrivewaysLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question39aAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question39aLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question39bAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question39bLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question40Answer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question40Label" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion43DataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion43DataViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="question46aAction:" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="LightingLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="q47A" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question43Answer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question43Label" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question44Answer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question44Label" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question45Answer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question45Label" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question46aAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question46bAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question46bLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question46cAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question46cLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion49DataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion49DataViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="question49OtherAction:" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question49AngledAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question49AngledLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question49CurbAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question49CurbLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question49Label" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question49MedianAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question49MedianLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question49OtherAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question49OtherLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question49RumbleAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question49RumbleLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question49SpeedAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question49SpeedLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question49TrafficAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question49TrafficLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion4aDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion4aDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="question4aAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question4aTitle" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question4bAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question4bTitle" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion4cDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion4cDataViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="PedestriancrossingsignAction:" candidateClass="UISwitch"/>
-                <relationship kind="action" name="PedestrianoverpassunderpassbridgeAction:" candidateClass="UISwitch"/>
-                <relationship kind="action" name="Pedestriansignalactivated:" candidateClass="UISwitch"/>
-                <relationship kind="action" name="PedestriansignalautomatedAction:" candidateClass="UISwitch"/>
-                <relationship kind="action" name="PedestriansignalwithcountdownAction:" candidateClass="UISwitch"/>
-                <relationship kind="action" name="PedestriansignalwithsoundAction:" candidateClass="UISwitch"/>
-                <relationship kind="action" name="StopsignAction:" candidateClass="UISwitch"/>
-                <relationship kind="action" name="TrafficsignalAction:" candidateClass="UISwitch"/>
-                <relationship kind="action" name="YieldsignAction:" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="activatedA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="activatedLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="automatedA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="automatedL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="countdownA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="countdownL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="crossingA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="crossingL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="crossingsignA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="crossingsignL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="overpassA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="overpassL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="q4cAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="q4cTitle" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="q5aTitle" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="soundA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="soundL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="stopA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="stopLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="trafficA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="trafficLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="yieldA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="yieldLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion50aDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion50aDataViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="question50aAction:" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question50aAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question50aLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question50bAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question50bLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion53DataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion53DataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="OtherFeaturesoftheSegmentLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="q57A" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="questioin54Answer" candidateClass="UIPickerView"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion55DataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion55DataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="question55Answer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question56Answer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question57Answer" candidateClass="UIPickerView"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion58DataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion58DataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="DogsLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="GotonextpagetoinputcommentsLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="OlfactoryLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question59Answer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question59Label" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question60Answer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question60Label" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question61Answer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question61Label" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion5bDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion5bDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="SkiptonextpageLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="q5bA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="q5bT" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQuestion62DataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQuestion62DataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="q62aA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="q62bA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="q62cA" candidateClass="UIPickerView"/>
-            </relationships>
-        </class>
-        <class className="IMI_CQustion36DataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CQustion36DataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="SkiptonextpageLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question36Answer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question36Label" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question37Answer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question37Label" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CResidentialbyheightDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CResidentialbyheightDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="highRise13A" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="highRise13L" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="highRise19A" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="highRise19L" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="highRise25A" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="highRise25L" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="lowRiseA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="lowRiseL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="midHighRiseA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="midHighRiseL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="midRiseA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="midRiseL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="q12_68L" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="q13aL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="residentialHeightL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="superHighRiseA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="superHighRiseL" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CResidentialbytypeDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CResidentialbytypeDataViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="residentialOtherAction:" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="attachedA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="attachedL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="condoA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="condoL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="detachedA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="detachedL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="residentialOtherA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="residentialOtherL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="residentialTypeL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="townA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="townL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="universityA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="universityL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="vernacularA" candidateClass="UISwitch"/>
-            </relationships>
-        </class>
-        <class className="IMI_CRootViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CRootViewController.h"/>
-        </class>
-        <class className="IMI_CSchoolDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CSchoolDataViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="InstitutionalotherAction:" candidateClass="UISwitch"/>
-                <relationship kind="action" name="PublicbuildingotherAction:" candidateClass="UISwitch"/>
-                <relationship kind="action" name="RecreationalotherAction:" candidateClass="UISwitch"/>
-                <relationship kind="action" name="SchoolotherAction:" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="CommunitycenterorlibraryA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="CommunitycenterorlibraryL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="GymfitnesscenterA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="GymfitnesscenterL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="HighschoolA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="HighschoolL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="HospitalmedicalfacilityhealthclinicA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="HospitalmedicalfacilityhealthclinicL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="InstitutionalL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="InstitutionalotherA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="InstitutionalotherL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="KindergartenA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="MovietheaterA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="MovietheaterL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="MuseumauditoriumconcerthalltheaterA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="MuseumauditoriumconcerthalltheaterL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="PostofficepolicestationcourthouseDepartmentofMotorVehiclesA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="PostofficepolicestationcourthouseDepartmentofMotorVehiclesL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="PrimaryschoolA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="PrimaryschoolL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="PublicCivicBuildingL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="PublicbuildingotherA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="PublicbuildingotherL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="RecreationalLeisureFitnessL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="RecreationalotherA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="RecreationalotherL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="ReligiousinstitutionA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="ReligiousinstitutionL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="SchoolotherA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="SchoolotherL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="SecondaryschoolA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="SecondaryschoolL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="UniversityorcollegeA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="UniversityorcollegeL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="kindergartenL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="schoolL" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CSidewalksDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CSidewalksDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="SidewalksL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question17aA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question17aL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question17bA" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question17bL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question18cA" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question18cL" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CStartViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CStartViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="emailAction:"/>
-                <relationship kind="action" name="uploadAction:"/>
-                <relationship kind="outlet" name="activityIndicator" candidateClass="UIActivityIndicatorView"/>
-                <relationship kind="outlet" name="cancelButton" candidateClass="UIBarButtonItem"/>
-                <relationship kind="outlet" name="emailButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="passwordText" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="startButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="statusLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="uploadButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="urlText" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="usernameText" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-        <class className="IMI_CSteepnessDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CSteepnessDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="SidewalkAmenitiesLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="SteepnessLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question24FlatorgentleAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question24FlatorgentleLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question24Label" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question24ModerateAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question24ModerateLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question24SteepAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="question24SteepLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question25Answer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question25Label" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CStreetCrossingViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CStreetCrossingViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="question3bOtherAction:" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="colorPaintedAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="coloredPaintedLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="otherAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="otherLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question3aAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question3aTitle" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question3bTitle" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="roadSurfaceAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="roadSurfaceLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="streetCrossingTitle" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="whitePaintedAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="whitePaintedLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="zebraAnswer" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="zebraLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CStreetTreesDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CStreetTreesDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="StreetTreesLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question28aAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question28aLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question28bAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question28bLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question28cAnswer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question28cLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CStreetscapeDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CStreetscapeDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="StreetscapeLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question31Answer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question31Label" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question32Answer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question32Label" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CSubmitDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CSubmitDataViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="submit:" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="submitButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="thankYouTitle" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="IMI_CWindowsDataViewController" superclassName="IMI_CDataViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMI_CWindowsDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="OtherFeaturesofBuildingsLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="SkiptonextpageLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="WindowsLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question34Answer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question34Label" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="question35Answer" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="question35Label" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
