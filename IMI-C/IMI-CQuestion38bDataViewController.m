@@ -12,10 +12,12 @@
 @interface IMI_CQuestion38bDataViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *question38bL;
 @property (weak, nonatomic) IBOutlet UIPickerView *question38bA;
-@property (weak, nonatomic) IBOutlet UILabel *question38cL;
-@property (weak, nonatomic) IBOutlet UIPickerView *question38cA;
 @property (nonatomic, retain) NSArray *question38bAnswerArray;
-@property (nonatomic, retain) NSArray *question38cAnswerArray;
+@property (nonatomic, strong) NSArray *q38cArray;
+@property (weak, nonatomic) IBOutlet UIPickerView *q38c1A;
+@property (weak, nonatomic) IBOutlet UIPickerView *q38c2A;
+@property (weak, nonatomic) IBOutlet UIPickerView *q38c3A;
+
 @end
 
 @implementation IMI_CQuestion38bDataViewController
@@ -34,15 +36,11 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     self.question38bL.text=NSLocalizedString(@"question38bL", nil);
-    self.question38cL.text=NSLocalizedString(@"question38cL", nil);
     self.question38bAnswerArray = [NSArray arrayWithObjects: NSLocalizedString(@"question38bAnswer0", nil),NSLocalizedString(@"question38bAnswer1", nil),NSLocalizedString(@"question38bAnswer2", nil),nil];
-    self.question38cAnswerArray = [NSArray arrayWithObjects: NSLocalizedString(@"somealotfewnoneNA0", nil),NSLocalizedString(@"somealotfewnoneNA1", nil),NSLocalizedString(@"somealotfewnoneNA2", nil),nil];
     BOOL isHidden =[[self.imi_cModelController.gloableData objectForKeyedSubscript:@"question38bActionIsHidden"] boolValue];
     [self.question38bL setHidden: isHidden];
     [self.question38bA setHidden:isHidden];
-    [self.question38cL setHidden:isHidden];
-    [self.question38cA setHidden:isHidden];
-    
+    self.q38cArray = [NSArray arrayWithObjects:@"NA",@"none",@"few",@"all/most", nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -55,14 +53,14 @@
     if (pickerView==self.question38bA) {
         return [self.question38bAnswerArray objectAtIndex:row];
     }
-    return [self.question38cAnswerArray objectAtIndex:row];
+    return [self.q38cArray objectAtIndex:row];
 }
 - (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
 {
     if (pickerView==self.question38bA) {
         return [self.question38bAnswerArray count];
     }
-    return [self.question38cAnswerArray count];
+    return [self.q38cArray count];
 }
 
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView
@@ -70,6 +68,24 @@
 	return 1;
 }
 -(void)setImi_cResults{
-    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d", [self.question38bA selectedRowInComponent:0]],[NSString stringWithFormat:@"%d", [self.question38cA selectedRowInComponent:0]], nil];
+    int q38c1V = 8;
+    int q38c2V = 8;
+    int q38c3V = 8;
+    if ([self.q38c1A selectedRowInComponent:0]!=0) {
+        q38c1V = [self.q38c1A selectedRowInComponent:0]-1;
+    }
+    if ([self.q38c2A selectedRowInComponent:0]!=0) {
+        q38c2V = [self.q38c2A selectedRowInComponent:0]-1;
+    }
+    if ([self.q38c2A selectedRowInComponent:0]!=0) {
+        q38c2V = [self.q38c2A selectedRowInComponent:0]-1;
+    }
+    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d", [self.question38bA selectedRowInComponent:0]],[NSString stringWithFormat:@"%d", q38c1V],[NSString stringWithFormat:@"%d", q38c2V],[NSString stringWithFormat:@"%d", q38c3V], nil];
+}
+- (void)viewDidUnload {
+    [self setQ38c1A:nil];
+    [self setQ38c2A:nil];
+    [self setQ38c3A:nil];
+    [super viewDidUnload];
 }
 @end

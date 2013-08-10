@@ -22,7 +22,6 @@
 @property (weak, nonatomic) IBOutlet UIPickerView *question19cPedestriansAnswer;
 @property (weak, nonatomic) IBOutlet UILabel *question19cOtherLabel;
 @property (weak, nonatomic) IBOutlet UIPickerView *question19cOtherAnswer;
-@property (weak, nonatomic) IBOutlet UITextField *question19cOtherText;
 @property (weak, nonatomic) IBOutlet UILabel *SkiptonextpageLabel;
 @property (nonatomic, retain) NSArray *question19cAnswerArray;
 @end
@@ -56,8 +55,7 @@
     self.question19cPedestriansAnswer.hidden=isHidden;
     self.question19cOtherLabel.hidden=isHidden;
     self.question19cOtherAnswer.hidden=isHidden;
-    self.question19cOtherText.hidden=![self.question19cOtherAnswer selectedRowInComponent:0]||isHidden;
-    self.SkiptonextpageLabel.text=NSLocalizedString(@"SkiptonextpageLabel", nil);
+        self.SkiptonextpageLabel.text=NSLocalizedString(@"SkiptonextpageLabel", nil);
     self.SkiptonextpageLabel.hidden=!isHidden;
     self.question19cAnswerArray = [NSArray arrayWithObjects: NSLocalizedString(@"question18gAnswer0", nil),NSLocalizedString(@"question18gAnswer1", nil),NSLocalizedString(@"question18gAnswer2", nil),nil];
     self.question19cLabel.text=NSLocalizedString(@"question19cLabel", nil);
@@ -68,7 +66,7 @@
     self.question19cMovingvehiclesLabel.text=NSLocalizedString(@"question19cMovingvehiclesLabel", nil);
     self.question19cPedestriansLabel.text=NSLocalizedString(@"question19cPedestriansLabel", nil);
     self.question19cOtherLabel.text=NSLocalizedString(@"question19cOtherLabel", nil);
-    self.question19cOtherText.placeholder=NSLocalizedString(@"Ifother", nil);
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -92,7 +90,7 @@
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
 {
     if (pickerView==self.question19cOtherAnswer) {
-        self.question19cOtherText.hidden=!row;
+      
     }
 }
 -(void)setImi_cResults{
@@ -111,7 +109,7 @@
         question19cPedestriansAnswerValue=[self.question19cPedestriansAnswer selectedRowInComponent:0];
         question19cOtherAnswerValue=[self.question19cOtherAnswer selectedRowInComponent:0];
     }
-    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d", question19cParkedcarsValue],[NSString stringWithFormat:@"%d", question19cParkedbicyclesormotorcyclesAnswerValue],[NSString stringWithFormat:@"%d", question19cBusstopAnswerValue],[NSString stringWithFormat:@"%d", question19cMovingvehiclesAnswerValue],[NSString stringWithFormat:@"%d", question19cPedestriansAnswerValue],[NSString stringWithFormat:@"%d", question19cOtherAnswerValue],self.question19cOtherText.text, nil];
+    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d", question19cParkedcarsValue],[NSString stringWithFormat:@"%d", question19cParkedbicyclesormotorcyclesAnswerValue],[NSString stringWithFormat:@"%d", question19cBusstopAnswerValue],[NSString stringWithFormat:@"%d", question19cMovingvehiclesAnswerValue],[NSString stringWithFormat:@"%d", question19cPedestriansAnswerValue],[NSString stringWithFormat:@"%d", question19cOtherAnswerValue], nil];
 }
 
 @end

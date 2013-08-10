@@ -25,7 +25,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *otherLabel;
 @property (weak, nonatomic) IBOutlet UISwitch *otherAnswer;
 - (IBAction)question3bOtherAction:(UISwitch *)sender;
-@property (weak, nonatomic) IBOutlet UITextField *question3bOtherText;
 
 @end
 
@@ -53,7 +52,6 @@
     self.zebraLabel.text=NSLocalizedString(@"zebraLabel", nil);
     self.roadSurfaceLabel.text=NSLocalizedString(@"roadSurfaceLabel", nil);
     self.otherLabel.text=NSLocalizedString(@"otherLabel", nil);
-    self.question3bOtherText.placeholder=NSLocalizedString(@"Ifother", nil);
 }
 
 - (void)didReceiveMemoryWarning
@@ -88,7 +86,6 @@
     self.roadSurfaceAnswer.hidden=!isYes;
     self.otherLabel.hidden=!isYes;
     self.otherAnswer.hidden=!isYes;
-    self.question3bOtherText.hidden=!isYes||![self.otherAnswer isOn];
     [self.imi_cModelController.gloableData setObject:[NSNumber numberWithBool:isYes] forKeyedSubscript:@"question2aAnswerIsYes"];
 }
 -(void)setImi_cResults{
@@ -107,9 +104,9 @@
     if (question3aAnswerValue==8||!question3aAnswerValue) {
         whitePaintedAnswerValue=colorPaintedAnswerValue=zebraAnswerValue=roadSurfaceAnswerValue=otherAnswerValue=8;
     }
-    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d", question3aAnswerValue],[NSString stringWithFormat:@"%d",whitePaintedAnswerValue],[NSString stringWithFormat:@"%d",colorPaintedAnswerValue],[NSString stringWithFormat:@"%d",zebraAnswerValue],[NSString stringWithFormat:@"%d",roadSurfaceAnswerValue],[NSString stringWithFormat:@"%d",otherAnswerValue],self.question3bOtherText.text, nil];
+    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d", question3aAnswerValue],[NSString stringWithFormat:@"%d",whitePaintedAnswerValue],[NSString stringWithFormat:@"%d",colorPaintedAnswerValue],[NSString stringWithFormat:@"%d",zebraAnswerValue],[NSString stringWithFormat:@"%d",roadSurfaceAnswerValue],[NSString stringWithFormat:@"%d",otherAnswerValue], nil];
 }
 - (IBAction)question3bOtherAction:(UISwitch *)sender {
-    self.question3bOtherText.hidden=![self.otherAnswer isOn];
+   
 }
 @end

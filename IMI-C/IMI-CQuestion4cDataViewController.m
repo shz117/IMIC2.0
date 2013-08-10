@@ -31,6 +31,8 @@
 @property (weak, nonatomic) IBOutlet UISwitch *crossingA;
 @property (weak, nonatomic) IBOutlet UILabel *overpassL;
 @property (weak, nonatomic) IBOutlet UISwitch *overpassA;
+@property (weak, nonatomic) IBOutlet UILabel *crossingsignL;
+@property (weak, nonatomic) IBOutlet UISwitch *crossingsignA;
 
 - (IBAction)TrafficsignalAction:(UISwitch *)sender;
 - (IBAction)StopsignAction:(UISwitch *)sender;
@@ -69,8 +71,9 @@
     self.automatedL.text=NSLocalizedString(@"automatedL", nil);
     self.countdownL.text=NSLocalizedString(@"countdownL", nil);
     self.soundL.text=NSLocalizedString(@"soundL", nil);
-    self.crossingL.text=NSLocalizedString(@"crossingL", nil);
+//    self.crossingL.text=@"Traffic assistant/\"crossing guard\"";
     self.overpassL.text=NSLocalizedString(@"overpassL", nil);
+    self.crossingsignL.text = NSLocalizedString(@"crossingSign", nil);
 }
 
 - (void)didReceiveMemoryWarning
@@ -99,7 +102,7 @@
     } else {
         question4cAnswerValue=selectedRow-1;
     }
-    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d", question4cAnswerValue],[NSString stringWithFormat:@"%d",[self.trafficA isOn]],[NSString stringWithFormat:@"%d",[self.stopA isOn]],[NSString stringWithFormat:@"%d",[self.yieldA isOn]],[NSString stringWithFormat:@"%d",[self.activatedA isOn]],[NSString stringWithFormat:@"%d",[self.automatedA isOn]],[NSString stringWithFormat:@"%d",[self.countdownA isOn]],[NSString stringWithFormat:@"%d",[self.soundA isOn]],[NSString stringWithFormat:@"%d",[self.crossingA isOn]],[NSString stringWithFormat:@"%d",[self.overpassA isOn]], nil];
+    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d", question4cAnswerValue],[NSString stringWithFormat:@"%d",[self.trafficA isOn]],[NSString stringWithFormat:@"%d",[self.stopA isOn]],[NSString stringWithFormat:@"%d",[self.yieldA isOn]],[NSString stringWithFormat:@"%d",[self.activatedA isOn]],[NSString stringWithFormat:@"%d",[self.automatedA isOn]],[NSString stringWithFormat:@"%d",[self.countdownA isOn]],[NSString stringWithFormat:@"%d",[self.soundA isOn]],[NSString stringWithFormat:@"%d",[self.crossingsignA isOn]],[NSString stringWithFormat:@"%d",[self.crossingA isOn]],[NSString stringWithFormat:@"%d",[self.overpassA isOn]], nil];
 }
 
 - (IBAction)TrafficsignalAction:(UISwitch *)sender {
@@ -148,5 +151,10 @@
 }
 -(void)isPedestriansignalOn{
     [self.imi_cModelController.gloableData setObject:[NSNumber numberWithBool:[self.activatedA isOn]||[self.automatedA isOn]||[self.countdownA isOn]||[self.soundA isOn]] forKeyedSubscript:@"question5aPedestriansignalactivatedIsOn"];
+}
+- (void)viewDidUnload {
+    [self setCrossingsignL:nil];
+    [self setCrossingsignA:nil];
+    [super viewDidUnload];
 }
 @end

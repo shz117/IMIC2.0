@@ -9,11 +9,8 @@
 #import "IMI-CQuestion55DataViewController.h"
 
 @interface IMI_CQuestion55DataViewController ()
-@property (weak, nonatomic) IBOutlet UILabel *question55Label;
 @property (weak, nonatomic) IBOutlet UISwitch *question55Answer;
-@property (weak, nonatomic) IBOutlet UILabel *question56Label;
 @property (weak, nonatomic) IBOutlet UIPickerView *question56Answer;
-@property (weak, nonatomic) IBOutlet UILabel *question57Label;
 @property (weak, nonatomic) IBOutlet UIPickerView *question57Answer;
 @property (nonatomic, retain) NSArray *question56AnswerArray;
 @property (nonatomic, retain) NSArray *question57AnswerArray;
@@ -34,10 +31,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    self.question55Label.text=NSLocalizedString(@"question55Label", nil);
-    self.question56Label.text=NSLocalizedString(@"question56Label", nil);
+
     self.question56AnswerArray = [NSArray arrayWithObjects: NSLocalizedString(@"somealotfewnoneNA0", nil),NSLocalizedString(@"somealotfewnoneNA1", nil),NSLocalizedString(@"somealotfewnoneNA2", nil),nil];
-    self.question57Label.text=NSLocalizedString(@"question57Label", nil);
     self.question57AnswerArray = [NSArray arrayWithObjects: NSLocalizedString(@"question57Answer0", nil),NSLocalizedString(@"question57Answer1", nil),nil];
 }
 

@@ -20,6 +20,7 @@
 @property (weak, nonatomic) IBOutlet UIPickerView *question26HeatAnswer;
 @property (weak, nonatomic) IBOutlet UILabel *question27Label;
 @property (weak, nonatomic) IBOutlet UISwitch *question27Answer;
+@property (weak, nonatomic) IBOutlet UISwitch *fountains;
 @property (nonatomic, retain) NSArray *question26AnswerArray;
 @end
 
@@ -65,7 +66,11 @@
 	return 1;
 }
 -(void)setImi_cResults{
-    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d", [self.question26BenchesAnswer selectedRowInComponent:0]],[NSString stringWithFormat:@"%d", [self.question26BusAnswer selectedRowInComponent:0]],[NSString stringWithFormat:@"%d", [self.question26LedgesAnswer selectedRowInComponent:0]],[NSString stringWithFormat:@"%d", [self.question26HeatAnswer selectedRowInComponent:0]],[NSString stringWithFormat:@"%d", [self.question27Answer isOn]], nil];
+    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d", [self.question26BenchesAnswer selectedRowInComponent:0]],[NSString stringWithFormat:@"%d", [self.question26BusAnswer selectedRowInComponent:0]],[NSString stringWithFormat:@"%d", [self.question26LedgesAnswer selectedRowInComponent:0]],[NSString stringWithFormat:@"%d", [self.question26HeatAnswer selectedRowInComponent:0]],[NSString stringWithFormat:@"%d", [self.fountains isOn]],[NSString stringWithFormat:@"%d", [self.question27Answer isOn]], nil];
 }
 
+- (void)viewDidUnload {
+    [self setFountains:nil];
+    [super viewDidUnload];
+}
 @end

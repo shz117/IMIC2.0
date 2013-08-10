@@ -87,8 +87,12 @@
 		F940986B1721F04900CFDE8D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940986A1721F04900CFDE8D /* Security.framework */; };
 		F940986D1721F05400CFDE8D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F940986C1721F05400CFDE8D /* libsqlite3.dylib */; };
 		F940986F1721F06800CFDE8D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940986E1721F06800CFDE8D /* QuartzCore.framework */; };
+		F94D837C17B59036006A0A34 /* IMI_CQuestion38dDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F94D837B17B59036006A0A34 /* IMI_CQuestion38dDataViewController.m */; };
+		F94D837F17B5E676006A0A34 /* IMI_CBuildAgeDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F94D837E17B5E676006A0A34 /* IMI_CBuildAgeDataViewController.m */; };
+		F951489F17B53288001D63BA /* IMI_COtherFBuidsDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F951489E17B53288001D63BA /* IMI_COtherFBuidsDataViewController.m */; };
 		F97DAB6D16FC13EC001B78F4 /* SurveyIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F97DAB6C16FC13EB001B78F4 /* SurveyIcon.png */; };
 		F9CB7E8E173B170500E5DA2F /* Dropbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CB7E8D173B170500E5DA2F /* Dropbox.framework */; };
+		F9DB753A17B676EB003C657C /* IMI_CQuestion62DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DB753917B676EB003C657C /* IMI_CQuestion62DataViewController.m */; };
 		F9F3392E1714662400AFADB1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F3392D1714662400AFADB1 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
@@ -184,7 +188,7 @@
 		8D7946BC1620B1F00096570E /* IMI-CCommentsDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IMI-CCommentsDataViewController.h"; sourceTree = "<group>"; };
 		8D7946BD1620B1F10096570E /* IMI-CCommentsDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IMI-CCommentsDataViewController.m"; sourceTree = "<group>"; };
 		8D809F421617302A00C9D384 /* CHCSVWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVWriter.m; sourceTree = "<group>"; };
-		8D824AEE1609696600768A95 /* IMI-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IMI-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D824AEE1609696600768A95 /* IMI-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "IMI-C.app"; path = "IMI-C2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D824AF21609696600768A95 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8D824AF41609696600768A95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8D824AF61609696600768A95 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -242,12 +246,21 @@
 		8DD319161612019300CF6E3A /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
 		8DD3191B1612092E00CF6E3A /* IMI-CStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IMI-CStartViewController.h"; sourceTree = "<group>"; };
 		8DD3191C1612092E00CF6E3A /* IMI-CStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IMI-CStartViewController.m"; sourceTree = "<group>"; };
+		F932175A17A2FFE600DEDD50 /* IMI-C2.0.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "IMI-C2.0.entitlements"; sourceTree = "<group>"; };
 		F94098681721F03E00CFDE8D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F940986A1721F04900CFDE8D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		F940986C1721F05400CFDE8D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		F940986E1721F06800CFDE8D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F94D837A17B59036006A0A34 /* IMI_CQuestion38dDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMI_CQuestion38dDataViewController.h; sourceTree = "<group>"; };
+		F94D837B17B59036006A0A34 /* IMI_CQuestion38dDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMI_CQuestion38dDataViewController.m; sourceTree = "<group>"; };
+		F94D837D17B5E676006A0A34 /* IMI_CBuildAgeDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMI_CBuildAgeDataViewController.h; sourceTree = "<group>"; };
+		F94D837E17B5E676006A0A34 /* IMI_CBuildAgeDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMI_CBuildAgeDataViewController.m; sourceTree = "<group>"; };
+		F951489D17B53288001D63BA /* IMI_COtherFBuidsDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMI_COtherFBuidsDataViewController.h; sourceTree = "<group>"; };
+		F951489E17B53288001D63BA /* IMI_COtherFBuidsDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMI_COtherFBuidsDataViewController.m; sourceTree = "<group>"; };
 		F97DAB6C16FC13EB001B78F4 /* SurveyIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SurveyIcon.png; sourceTree = "<group>"; };
 		F9CB7E8D173B170500E5DA2F /* Dropbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Dropbox.framework; path = "../../../../Desktop/IOS相关/demos&sdks/dropbox-ios-sync-sdk-1.0.7/Dropbox.framework"; sourceTree = "<group>"; };
+		F9DB753817B676EB003C657C /* IMI_CQuestion62DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMI_CQuestion62DataViewController.h; sourceTree = "<group>"; };
+		F9DB753917B676EB003C657C /* IMI_CQuestion62DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMI_CQuestion62DataViewController.m; sourceTree = "<group>"; };
 		F9F3392D1714662400AFADB1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -275,6 +288,7 @@
 		8D824AE31609696600768A95 = {
 			isa = PBXGroup;
 			children = (
+				F932175A17A2FFE600DEDD50 /* IMI-C2.0.entitlements */,
 				F940986E1721F06800CFDE8D /* QuartzCore.framework */,
 				F940986C1721F05400CFDE8D /* libsqlite3.dylib */,
 				F940986A1721F04900CFDE8D /* Security.framework */,
@@ -405,6 +419,8 @@
 				8D2525DB161CA20900D742CB /* IMI-CStreetTreesDataViewController.h */,
 				8D2525DC161CA20900D742CB /* IMI-CStreetTreesDataViewController.m */,
 				8D3FFAF8161B930000F21FE9 /* IMI-CQuestion17gOtherDataViewController.h */,
+				F951489D17B53288001D63BA /* IMI_COtherFBuidsDataViewController.h */,
+				F951489E17B53288001D63BA /* IMI_COtherFBuidsDataViewController.m */,
 				8D3FFAF9161B930000F21FE9 /* IMI-CQuestion17gOtherDataViewController.m */,
 				8D3FFAFB161BD22000F21FE9 /* IMI-CBicyclesDataViewController.h */,
 				8D3FFAFC161BD22000F21FE9 /* IMI-CBicyclesDataViewController.m */,
@@ -447,6 +463,12 @@
 				8D7340D7161A7A8100BC2311 /* IMI-CQ5dDataViewController.m */,
 				8D7340D9161A817000BC2311 /* IMI-CQ6aDataViewController.h */,
 				8D7340DA161A817000BC2311 /* IMI-CQ6aDataViewController.m */,
+				F94D837A17B59036006A0A34 /* IMI_CQuestion38dDataViewController.h */,
+				F94D837B17B59036006A0A34 /* IMI_CQuestion38dDataViewController.m */,
+				F94D837D17B5E676006A0A34 /* IMI_CBuildAgeDataViewController.h */,
+				F94D837E17B5E676006A0A34 /* IMI_CBuildAgeDataViewController.m */,
+				F9DB753817B676EB003C657C /* IMI_CQuestion62DataViewController.h */,
+				F9DB753917B676EB003C657C /* IMI_CQuestion62DataViewController.m */,
 			);
 			path = "IMI-C";
 			sourceTree = "<group>";
@@ -600,6 +622,10 @@
 				8D6295C01663266600785D19 /* IMI-CSteepnessDataViewController.m in Sources */,
 				8DBAFF5C1663BF51000564EA /* IMI-CQuestion38bDataViewController.m in Sources */,
 				8DBAFF601663CB6D000564EA /* IMI-CQuestion50aDataViewController.m in Sources */,
+				F951489F17B53288001D63BA /* IMI_COtherFBuidsDataViewController.m in Sources */,
+				F94D837C17B59036006A0A34 /* IMI_CQuestion38dDataViewController.m in Sources */,
+				F94D837F17B5E676006A0A34 /* IMI_CBuildAgeDataViewController.m in Sources */,
+				F9DB753A17B676EB003C657C /* IMI_CQuestion62DataViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

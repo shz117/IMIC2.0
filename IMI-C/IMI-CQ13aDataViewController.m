@@ -39,8 +39,6 @@
 @property (weak, nonatomic) IBOutlet UISwitch *universityA;
 @property (weak, nonatomic) IBOutlet UILabel *vernacularL;
 @property (weak, nonatomic) IBOutlet UISwitch *vernacularA;
-@property (weak, nonatomic) IBOutlet UILabel *informalL;
-@property (weak, nonatomic) IBOutlet UISwitch *informalA;
 @property (weak, nonatomic) IBOutlet UILabel *residentialOtherL;
 @property (weak, nonatomic) IBOutlet UISwitch *residentialOtherA;
 @property (weak, nonatomic) IBOutlet UILabel *schoolL;
@@ -97,8 +95,6 @@
     self.townL.text=NSLocalizedString(@"townL", nil);
     self.condoL.text=NSLocalizedString(@"condoL", nil);
     self.universityL.text=NSLocalizedString(@"universityL", nil);
-    self.vernacularL.text=NSLocalizedString(@"vernacularL", nil);
-    self.informalL.text=NSLocalizedString(@"informalL", nil);
     self.residentialOtherL.text=NSLocalizedString(@"residentialOtherL", nil);
     self.schoolL.text=NSLocalizedString(@"schoolL", nil);
     self.kindergartenL.text=NSLocalizedString(@"kindergartenL", nil);
@@ -119,6 +115,6 @@
     // Dispose of any resources that can be recreated.
 }
 -(void)setImi_cResults{
-    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d",[self.lowRiseA isOn]],[NSString stringWithFormat:@"%d",[self.midRiseA isOn]],[NSString stringWithFormat:@"%d",[self.midHighRiseA isOn]],[NSString stringWithFormat:@"%d",[self.highRise13A isOn]],[NSString stringWithFormat:@"%d",[self.highRise19A isOn]],[NSString stringWithFormat:@"%d",[self.highRise25A isOn]],[NSString stringWithFormat:@"%d",[self.superHighRiseA isOn]],[NSString stringWithFormat:@"%d",[self.detachedA isOn]],[NSString stringWithFormat:@"%d",[self.attachedA isOn]],[NSString stringWithFormat:@"%d",[self.townA isOn]],[NSString stringWithFormat:@"%d",[self.condoA isOn]],[NSString stringWithFormat:@"%d",[self.vernacularA isOn]],[NSString stringWithFormat:@"%d",[self.universityA isOn]],[NSString stringWithFormat:@"%d",[self.informalA isOn]],[NSString stringWithFormat:@"%d",[self.RecreationalotherA isOn]],[NSString stringWithFormat:@"%d",[self.KindergartenA isOn]],[NSString stringWithFormat:@"%d",[self.PrimaryschoolA isOn]],[NSString stringWithFormat:@"%d",[self.SecondaryschoolA isOn]],[NSString stringWithFormat:@"%d",[self.HighschoolA isOn]],[NSString stringWithFormat:@"%d",[self.UniversityorcollegeA isOn]],[NSString stringWithFormat:@"%d",[self.SchoolotherA isOn]],[NSString stringWithFormat:@"%d",[self.GymfitnesscenterA isOn]],[NSString stringWithFormat:@"%d",[self.MovietheaterA isOn]],[NSString stringWithFormat:@"%d",[self.RecreationalotherA isOn]], nil];
+    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d",[self.lowRiseA isOn]],[NSString stringWithFormat:@"%d",[self.midRiseA isOn]],[NSString stringWithFormat:@"%d",[self.midHighRiseA isOn]],[NSString stringWithFormat:@"%d",[self.highRise13A isOn]],[NSString stringWithFormat:@"%d",[self.highRise19A isOn]],[NSString stringWithFormat:@"%d",[self.highRise25A isOn]],[NSString stringWithFormat:@"%d",[self.superHighRiseA isOn]],[NSString stringWithFormat:@"%d",[self.detachedA isOn]],[NSString stringWithFormat:@"%d",[self.attachedA isOn]],[NSString stringWithFormat:@"%d",[self.townA isOn]],[NSString stringWithFormat:@"%d",[self.condoA isOn]],[NSString stringWithFormat:@"%d",[self.vernacularA isOn]],[NSString stringWithFormat:@"%d",[self.universityA isOn]],[NSString stringWithFormat:@"%d",[self.RecreationalotherA isOn]],[NSString stringWithFormat:@"%d",[self.KindergartenA isOn]],[NSString stringWithFormat:@"%d",[self.PrimaryschoolA isOn]],[NSString stringWithFormat:@"%d",[self.SecondaryschoolA isOn]],[NSString stringWithFormat:@"%d",[self.HighschoolA isOn]],[NSString stringWithFormat:@"%d",[self.UniversityorcollegeA isOn]],[NSString stringWithFormat:@"%d",[self.SchoolotherA isOn]],[NSString stringWithFormat:@"%d",[self.GymfitnesscenterA isOn]],[NSString stringWithFormat:@"%d",[self.MovietheaterA isOn]],[NSString stringWithFormat:@"%d",[self.RecreationalotherA isOn]], nil];
 }
 @end

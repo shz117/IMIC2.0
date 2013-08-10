@@ -20,7 +20,7 @@
 @property (weak, nonatomic) IBOutlet UISwitch *question21BikeparkinguncoveredAnswer;
 @property (weak, nonatomic) IBOutlet UILabel *question21OtherLabel;
 @property (weak, nonatomic) IBOutlet UISwitch *question21OtherAnswer;
-@property (weak, nonatomic) IBOutlet UITextField *question21OtherText;
+
 @property (weak, nonatomic) IBOutlet UILabel *question22Label;
 @property (weak, nonatomic) IBOutlet UISwitch *question22Answer;
 - (IBAction)question21OtherAction:(id)sender;
@@ -49,7 +49,7 @@
     self.question21BikeparkingcoveredLabel.text=NSLocalizedString(@"question21BikeparkingcoveredLabel", nil);
     self.question21BikeparkinguncoveredLabel.text=NSLocalizedString(@"question21BikeparkinguncoveredLabel", nil);
     self.question21OtherLabel.text=NSLocalizedString(@"question21OtherLabel", nil);
-    self.question21OtherText.placeholder=NSLocalizedString(@"Ifother", nil);
+    
     self.question22Label.text=NSLocalizedString(@"question22Label", nil);
 }
 
@@ -72,10 +72,10 @@
 	return 1;
 }
 -(void)setImi_cResults{
-    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d", [self.question20Answer selectedRowInComponent:0]],[NSString stringWithFormat:@"%d", [self.question21BikeracksAnswer selectedRowInComponent:0]],[NSString stringWithFormat:@"%d", [self.question21BikeparkingcoveredAnswer isOn]],[NSString stringWithFormat:@"%d", [self.question21BikeparkinguncoveredAnswer isOn]],[NSString stringWithFormat:@"%d", [self.question21OtherAnswer isOn]],self.question21OtherText.text,[NSString stringWithFormat:@"%d", [self.question22Answer isOn]], nil];
+    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d", [self.question20Answer selectedRowInComponent:0]],[NSString stringWithFormat:@"%d", [self.question21BikeracksAnswer selectedRowInComponent:0]],[NSString stringWithFormat:@"%d", [self.question21BikeparkingcoveredAnswer isOn]],[NSString stringWithFormat:@"%d", [self.question21BikeparkinguncoveredAnswer isOn]],[NSString stringWithFormat:@"%d", [self.question21OtherAnswer isOn]],[NSString stringWithFormat:@"%d", [self.question22Answer isOn]], nil];
 }
 
 - (IBAction)question21OtherAction:(id)sender {
-    self.question21OtherText.hidden=![(UISwitch*)sender isOn];
+   
 }
 @end

@@ -32,8 +32,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    self.question50aLabel.text=NSLocalizedString(@"question50aLabel", nil);
-    self.question50bLabel.text=NSLocalizedString(@"question50bLabel", nil);
     self.question50bAnswerArray = [NSArray arrayWithObjects: NSLocalizedString(@"question50bAnswer7", nil),NSLocalizedString(@"question50bAnswer0", nil),NSLocalizedString(@"question50bAnswer1", nil),nil];
 }
 

@@ -20,15 +20,10 @@
 @property (weak, nonatomic) IBOutlet UISwitch *condoA;
 @property (weak, nonatomic) IBOutlet UILabel *universityL;
 @property (weak, nonatomic) IBOutlet UISwitch *universityA;
-@property (weak, nonatomic) IBOutlet UILabel *vernacularL;
 @property (weak, nonatomic) IBOutlet UISwitch *vernacularA;
-@property (weak, nonatomic) IBOutlet UILabel *informalL;
-@property (weak, nonatomic) IBOutlet UISwitch *informalA;
 @property (weak, nonatomic) IBOutlet UILabel *residentialOtherL;
 @property (weak, nonatomic) IBOutlet UISwitch *residentialOtherA;
 - (IBAction)residentialOtherAction:(UISwitch *)sender;
-@property (weak, nonatomic) IBOutlet UITextField *residentialOtherText;
-
 @end
 
 @implementation IMI_CResidentialbytypeDataViewController
@@ -52,10 +47,8 @@
     self.townL.text=NSLocalizedString(@"townL", nil);
     self.condoL.text=NSLocalizedString(@"condoL", nil);
     self.universityL.text=NSLocalizedString(@"universityL", nil);
-    self.vernacularL.text=NSLocalizedString(@"vernacularL", nil);
-    self.informalL.text=NSLocalizedString(@"informalL", nil);
+
     self.residentialOtherL.text=NSLocalizedString(@"residentialOtherL", nil);
-    self.residentialOtherText.placeholder=NSLocalizedString(@"Ifother", nil);
 }
 
 - (void)didReceiveMemoryWarning
@@ -64,10 +57,9 @@
     // Dispose of any resources that can be recreated.
 }
 -(void)setImi_cResults{
-    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d",[self.detachedA isOn]],[NSString stringWithFormat:@"%d",[self.attachedA isOn]],[NSString stringWithFormat:@"%d",[self.townA isOn]],[NSString stringWithFormat:@"%d",[self.condoA isOn]],[NSString stringWithFormat:@"%d",[self.vernacularA isOn]],[NSString stringWithFormat:@"%d",[self.universityA isOn]],[NSString stringWithFormat:@"%d",[self.informalA isOn]],[NSString stringWithFormat:@"%d",[self.residentialOtherA isOn]],self.residentialOtherText.text, nil];
+    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d",[self.detachedA isOn]],[NSString stringWithFormat:@"%d",[self.attachedA isOn]],[NSString stringWithFormat:@"%d",[self.townA isOn]],[NSString stringWithFormat:@"%d",[self.condoA isOn]],[NSString stringWithFormat:@"%d",[self.vernacularA isOn]],[NSString stringWithFormat:@"%d",[self.universityA isOn]],[NSString stringWithFormat:@"%d",[self.residentialOtherA isOn]], nil];
 }
 
 - (IBAction)residentialOtherAction:(UISwitch *)sender {
-    self.residentialOtherText.hidden=![sender isOn];
-}
+   }
 @end

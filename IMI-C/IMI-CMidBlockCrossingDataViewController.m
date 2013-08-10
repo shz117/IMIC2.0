@@ -22,10 +22,13 @@
 @property (weak, nonatomic) IBOutlet UISwitch *question23bZebrastripingAnswer;
 @property (weak, nonatomic) IBOutlet UILabel *question23bDifferentroadsurfaceorpavingLabel;
 @property (weak, nonatomic) IBOutlet UISwitch *question23bDifferentroadsurfaceorpavingAnswer;
+@property (weak, nonatomic) IBOutlet UILabel *MbPedLghtL;
+
+@property (weak, nonatomic) IBOutlet UISwitch *MbPedLghtA;
+
 @property (weak, nonatomic) IBOutlet UILabel *question23bOtherLabel;
 @property (weak, nonatomic) IBOutlet UISwitch *question23bOtherAnswer;
 - (IBAction)question23bOtherAction:(id)sender;
-@property (weak, nonatomic) IBOutlet UITextField *question23bOtherText;
 @property (weak, nonatomic) IBOutlet UILabel *question23cLabel;
 @property (weak, nonatomic) IBOutlet UIPickerView *question23cAnswer;
 @property (nonatomic, retain) NSArray *question23cAnswerArray;
@@ -55,7 +58,6 @@
     self.question23bZebrastripingLabel.text=NSLocalizedString(@"question23bZebrastripingLabel", nil);
     self.question23bDifferentroadsurfaceorpavingLabel.text=NSLocalizedString(@"question23bDifferentroadsurfaceorpavingLabel", nil);
     self.question23bOtherLabel.text=NSLocalizedString(@"question23bOtherLabel", nil);
-    self.question23bOtherText.placeholder=NSLocalizedString(@"Ifother", nil);
     self.question23cLabel.text=NSLocalizedString(@"question23cLabel", nil);
         self.question23cAnswerArray = [NSArray arrayWithObjects: NSLocalizedString(@"question23Answer0", nil),NSLocalizedString(@"question23Answer1", nil),NSLocalizedString(@"question23Answer2", nil),nil];
 }
@@ -84,6 +86,7 @@
     BOOL question23bColoredpaintedlinesAnswerValue=8;
     BOOL question23bZebrastripingAnswerValue=8;
     BOOL question23bDifferentroadsurfaceorpavingAnswerValue=8;
+    BOOL MbPedLghtAnsverValue=8;
     BOOL question23bOtherAnswerValue=8;
     BOOL question23cAnswerValue=8;
     if (question23aAnswerValue) {
@@ -91,11 +94,12 @@
         question23bColoredpaintedlinesAnswerValue=[self.question23bColoredpaintedlinesAnswer isOn];
         question23bZebrastripingAnswerValue=[self.question23bZebrastripingAnswer isOn];
         question23bDifferentroadsurfaceorpavingAnswerValue=[self.question23bDifferentroadsurfaceorpavingAnswer isOn];
+        MbPedLghtAnsverValue=[self.MbPedLghtA isOn];
         question23bOtherAnswerValue=[self.question23bOtherAnswer isOn];
     }else{
         question23cAnswerValue=[self.question23cAnswer selectedRowInComponent:0];
     }
-    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d", question23aAnswerValue],[NSString stringWithFormat:@"%d", question23bWhitepaintedlinesAnswerValue],[NSString stringWithFormat:@"%d", question23bColoredpaintedlinesAnswerValue],[NSString stringWithFormat:@"%d", question23bZebrastripingAnswerValue],[NSString stringWithFormat:@"%d", question23bDifferentroadsurfaceorpavingAnswerValue],[NSString stringWithFormat:@"%d", question23bOtherAnswerValue],self.question23bOtherText.text,[NSString stringWithFormat:@"%d", question23cAnswerValue], nil];
+    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d", question23aAnswerValue],[NSString stringWithFormat:@"%d", question23bWhitepaintedlinesAnswerValue],[NSString stringWithFormat:@"%d", question23bColoredpaintedlinesAnswerValue],[NSString stringWithFormat:@"%d", question23bZebrastripingAnswerValue],[NSString stringWithFormat:@"%d", question23bDifferentroadsurfaceorpavingAnswerValue],[NSString stringWithFormat:@"%d", question23bOtherAnswerValue],[NSString stringWithFormat:@"%d", MbPedLghtAnsverValue],[NSString stringWithFormat:@"%d", question23cAnswerValue], nil];
 }
 - (IBAction)question23aAction:(id)sender {
     BOOL isHidden=![(UISwitch *)sender isOn];
@@ -107,15 +111,21 @@
     self.question23bZebrastripingLabel.hidden=isHidden;
     self.question23bZebrastripingAnswer.hidden=isHidden;
     self.question23bDifferentroadsurfaceorpavingLabel.hidden=isHidden;
+    self.MbPedLghtL.hidden=isHidden;
+    self.MbPedLghtA.hidden=isHidden;
     self.question23bDifferentroadsurfaceorpavingAnswer.hidden=isHidden;
     self.question23bOtherLabel.hidden=isHidden;
     self.question23bOtherAnswer.hidden=isHidden;
-    self.question23bOtherText.hidden=![self.question23bOtherAnswer isOn]||isHidden;
+    
     self.question23cLabel.hidden=!isHidden;
     self.question23cAnswer.hidden=!isHidden;
 }
 
 - (IBAction)question23bOtherAction:(id)sender {
-    self.question23bOtherText.hidden=![(UISwitch *)sender isOn];
+    }
+- (void)viewDidUnload {
+    [self setMbPedLghtL:nil];
+    [self setMbPedLghtA:nil];
+    [super viewDidUnload];
 }
 @end

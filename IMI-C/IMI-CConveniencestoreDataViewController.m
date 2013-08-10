@@ -18,7 +18,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *FarmersmarketL;
 @property (weak, nonatomic) IBOutlet UIPickerView *FarmersmarketA;
 @property (weak, nonatomic) IBOutlet UILabel *InformalsellersL;
-@property (weak, nonatomic) IBOutlet UIPickerView *InformalsellersA;
+
+@property (weak, nonatomic) IBOutlet UISwitch *GthrOthr;
 @property (nonatomic, retain) NSArray *otherLandUsesAArray;
 @end
 
@@ -42,8 +43,7 @@
     self.ArtorcraftgalleriesL.text=NSLocalizedString(@"ArtorcraftgalleriesL", nil);
     self.WinebarsloungesL.text=NSLocalizedString(@"WinebarsloungesL", nil);
     self.FarmersmarketL.text=NSLocalizedString(@"FarmersmarketL", nil);
-    self.InformalsellersL.text=NSLocalizedString(@"InformalsellersL", nil);
-}
+    }
 
 - (void)didReceiveMemoryWarning
 {
@@ -64,7 +64,11 @@
 	return 1;
 }
 -(void)setImi_cResults{
-    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d",[self.ConveniencestoreA selectedRowInComponent:0]],[NSString stringWithFormat:@"%d",[self.ArtorcraftgalleriesA selectedRowInComponent:0]],[NSString stringWithFormat:@"%d",[self.WinebarsloungesA selectedRowInComponent:0]],[NSString stringWithFormat:@"%d",[self.FarmersmarketA selectedRowInComponent:0]],[NSString stringWithFormat:@"%d",[self.InformalsellersA selectedRowInComponent:0]], nil];
+    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d",[self.ConveniencestoreA selectedRowInComponent:0]],[NSString stringWithFormat:@"%d",[self.ArtorcraftgalleriesA selectedRowInComponent:0]],[NSString stringWithFormat:@"%d",[self.WinebarsloungesA selectedRowInComponent:0]],[NSString stringWithFormat:@"%d",[self.FarmersmarketA selectedRowInComponent:0]],[NSString stringWithFormat:@"%d",[self.GthrOthr isOn]], nil];
 }
 
+- (void)viewDidUnload {
+    [self setGthrOthr:nil];
+    [super viewDidUnload];
+}
 @end

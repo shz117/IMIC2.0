@@ -19,8 +19,6 @@
 @property (weak, nonatomic) IBOutlet UISwitch *alleyA;
 @property (weak, nonatomic) IBOutlet UILabel *narrowL;
 @property (weak, nonatomic) IBOutlet UISwitch *narrowA;
-@property (weak, nonatomic) IBOutlet UILabel *stairsL;
-@property (weak, nonatomic) IBOutlet UISwitch *stairsA;
 @property (weak, nonatomic) IBOutlet UILabel *q12aL;
 @property (weak, nonatomic) IBOutlet UITextField *q12aA;
 @property (weak, nonatomic) IBOutlet UILabel *q12bL;
@@ -51,7 +49,6 @@
     self.intendedL.text=NSLocalizedString(@"intendedL", nil);
     self.alleyL.text=NSLocalizedString(@"alleyL", nil);
     self.narrowL.text=NSLocalizedString(@"narrowL", nil);
-    self.stairsL.text=NSLocalizedString(@"stairsL", nil);
     self.q12aL.text=NSLocalizedString(@"q12aL", nil);
     self.q12aA.placeholder=NSLocalizedString(@"q12aA", nil);
     self.q12bL.text=NSLocalizedString(@"q12bL", nil);
@@ -79,7 +76,7 @@
 	return 1;
 }
 -(void)setImi_cResults{
-    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d",2-[self.q11A selectedRowInComponent:0]],[NSString stringWithFormat:@"%d",[self.intendedA isOn]],[NSString stringWithFormat:@"%d",[self.alleyA isOn]],[NSString stringWithFormat:@"%d",[self.narrowA isOn]],[NSString stringWithFormat:@"%d",[self.stairsA isOn]],self.q12aA.text,self.q12bA.text,self.q12cA.text, nil];
+    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d",2-[self.q11A selectedRowInComponent:0]],[NSString stringWithFormat:@"%d",[self.intendedA isOn]],[NSString stringWithFormat:@"%d",[self.alleyA isOn]],[NSString stringWithFormat:@"%d",[self.narrowA isOn]],self.q12aA.text,self.q12bA.text,self.q12cA.text, nil];
 }
 
 

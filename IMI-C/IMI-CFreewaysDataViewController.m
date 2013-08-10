@@ -36,11 +36,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    self.FreewaysLabel.text=NSLocalizedString(@"FreewaysLabel", nil);
-    self.question47Label.text=NSLocalizedString(@"question47Label", nil);
     self.question47AnswerArray = [NSArray arrayWithObjects: NSLocalizedString(@"question47Answer0", nil),NSLocalizedString(@"question47Answer1", nil),NSLocalizedString(@"question47Answer2", nil),NSLocalizedString(@"question47Answer3", nil),nil];
     self.TrafficFeaturesLabel.text=NSLocalizedString(@"TrafficFeaturesLabel", nil);
-    self.question48Label.text=NSLocalizedString(@"question48Label", nil);
     self.question49b.text=NSLocalizedString(@"question49b", nil);
     self.question48Answer.placeholder=NSLocalizedString(@"question48Answer", nil);
 }

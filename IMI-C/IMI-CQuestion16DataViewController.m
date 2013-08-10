@@ -14,8 +14,6 @@
 @property (weak, nonatomic) IBOutlet UIPickerView *question16RestaurantsA;
 @property (weak, nonatomic) IBOutlet UILabel *CoffeeshopsL;
 @property (weak, nonatomic) IBOutlet UIPickerView *CoffeeshopsA;
-@property (weak, nonatomic) IBOutlet UILabel *TeahousesL;
-@property (weak, nonatomic) IBOutlet UIPickerView *TeahousesA;
 @property (weak, nonatomic) IBOutlet UILabel *LibrariesbookstoresL;
 @property (weak, nonatomic) IBOutlet UIPickerView *LibrariesbookstoresA;
 @property (nonatomic, retain) NSArray *otherLandUsesAArray;
@@ -40,7 +38,6 @@
     self.question16L.text=NSLocalizedString(@"question16L", nil);
     self.question16RestaurantsL.text=NSLocalizedString(@"question16RestaurantsL", nil);
     self.CoffeeshopsL.text=NSLocalizedString(@"CoffeeshopsL", nil);
-    self.TeahousesL.text=NSLocalizedString(@"TeahousesL", nil);
     self.LibrariesbookstoresL.text=NSLocalizedString(@"LibrariesbookstoresL", nil);
     self.otherLandUsesAArray = [NSArray arrayWithObjects: NSLocalizedString(@"otherLandUsesA0", nil),NSLocalizedString(@"otherLandUsesA1", nil),NSLocalizedString(@"otherLandUsesA2", nil),nil];
 }
@@ -64,7 +61,7 @@
 	return 1;
 }
 -(void)setImi_cResults{
-    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d",[self.question16RestaurantsA selectedRowInComponent:0]],[NSString stringWithFormat:@"%d",[self.CoffeeshopsA selectedRowInComponent:0]],[NSString stringWithFormat:@"%d",[self.TeahousesA selectedRowInComponent:0]],[NSString stringWithFormat:@"%d",[self.LibrariesbookstoresA selectedRowInComponent:0]], nil];
+    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d",[self.question16RestaurantsA selectedRowInComponent:0]],[NSString stringWithFormat:@"%d",[self.CoffeeshopsA selectedRowInComponent:0]],[NSString stringWithFormat:@"%d",[self.LibrariesbookstoresA selectedRowInComponent:0]], nil];
 }
 
 @end

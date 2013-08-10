@@ -24,7 +24,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *question13cOtherL;
 @property (weak, nonatomic) IBOutlet UISwitch *question13cOtherA;
 - (IBAction)question13cOtherAction:(UISwitch *)sender;
-@property (weak, nonatomic) IBOutlet UITextField *question13cOtherText;
+
 
 @end
 
@@ -51,7 +51,7 @@
     self.question13cRestaurantsLL.text=NSLocalizedString(@"question13cRestaurantsLL", nil);
     self.Question13cServiceLabel.text=NSLocalizedString(@"Question13cServiceLabel", nil);
     self.question13cOtherL.text=NSLocalizedString(@"question13cOtherL", nil);
-    self.question13cOtherText.placeholder=NSLocalizedString(@"Ifother", nil);
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -86,7 +86,6 @@
     self.Question13cServiceAnswer.hidden=!isYes;
     self.question13cOtherL.hidden=!isYes;
     self.question13cOtherA.hidden=!isYes;
-    self.question13cOtherText.hidden=!isYes||![self.question13cOtherA isOn];
     [self.imi_cModelController.gloableData setObject:[NSNumber numberWithBool:isYes] forKeyedSubscript:@"questioin13bAIsYes"];
 }
 -(void)setImi_cResults{
@@ -97,10 +96,10 @@
     } else {
         question13bAnswerValue=selectedRow-1;
     }
-    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d",question13bAnswerValue],[NSString stringWithFormat:@"%d",[self.question13cRetailA isOn]],[NSString stringWithFormat:@"%d",[self.question13cOfficeA isOn]],[NSString stringWithFormat:@"%d",[self.question13cRestaurantsLA isOn]],[NSString stringWithFormat:@"%d",[self.Question13cServiceAnswer isOn]],[NSString stringWithFormat:@"%d",[self.question13cOtherA isOn]],self.question13cOtherText.text, nil];
+    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d",question13bAnswerValue],[NSString stringWithFormat:@"%d",[self.question13cRetailA isOn]],[NSString stringWithFormat:@"%d",[self.question13cOfficeA isOn]],[NSString stringWithFormat:@"%d",[self.question13cRestaurantsLA isOn]],[NSString stringWithFormat:@"%d",[self.Question13cServiceAnswer isOn]],[NSString stringWithFormat:@"%d",[self.question13cOtherA isOn]], nil];
 }
 
 - (IBAction)question13cOtherAction:(UISwitch *)sender {
-    self.question13cOtherText.hidden=![sender isOn];
+    
 }
 @end

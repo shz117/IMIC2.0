@@ -8,6 +8,6 @@
 
 #import "IMI_CDataViewController.h"
 
-@interface IMI_CQuestion58DataViewController : IMI_CDataViewController<UIPickerViewDataSource,UIPickerViewDelegate>
+@interface IMI_CQuestion58DataViewController : IMI_CDataViewController
 
 @end

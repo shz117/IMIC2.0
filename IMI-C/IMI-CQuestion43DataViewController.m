@@ -16,13 +16,13 @@
 @property (weak, nonatomic) IBOutlet UILabel *question45Label;
 @property (weak, nonatomic) IBOutlet UIPickerView *question45Answer;
 @property (weak, nonatomic) IBOutlet UILabel *LightingLabel;
-@property (weak, nonatomic) IBOutlet UILabel *question46aLabel;
 @property (weak, nonatomic) IBOutlet UISwitch *question46aAnswer;
 - (IBAction)question46aAction:(UISwitch *)sender;
 @property (weak, nonatomic) IBOutlet UILabel *question46bLabel;
 @property (weak, nonatomic) IBOutlet UISwitch *question46bAnswer;
 @property (weak, nonatomic) IBOutlet UILabel *question46cLabel;
 @property (weak, nonatomic) IBOutlet UISwitch *question46cAnswer;
+@property (weak, nonatomic) IBOutlet UIPickerView *q47A;
 @property (nonatomic, retain) NSArray *question43AnswerArray;
 @end
 
@@ -46,9 +46,6 @@
     self.question44Label.text=NSLocalizedString(@"question44Label", nil);
     self.question45Label.text=NSLocalizedString(@"question45Label", nil);
     self.LightingLabel.text=NSLocalizedString(@"LightingLabel", nil);
-    self.question46aLabel.text=NSLocalizedString(@"question46aLabel", nil);
-    self.question46bLabel.text=NSLocalizedString(@"question46bLabel", nil);
-    self.question46cLabel.text=NSLocalizedString(@"question46cLabel", nil);
 }
 
 - (void)didReceiveMemoryWarning
@@ -78,7 +75,7 @@
         question46bAnswerValue=[self.question46bAnswer isOn];
         question46cAnswerValue=[self.question46cAnswer isOn];
     }
-    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d", [self.question43Answer selectedRowInComponent:0]],[NSString stringWithFormat:@"%d", [self.question44Answer selectedRowInComponent:0]],[NSString stringWithFormat:@"%d", [self.question45Answer selectedRowInComponent:0]],[NSString stringWithFormat:@"%d", question46aAnswerValue],[NSString stringWithFormat:@"%d", question46bAnswerValue],[NSString stringWithFormat:@"%d", question46cAnswerValue], nil];
+    self.dataArray=[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d", [self.question43Answer selectedRowInComponent:0]],[NSString stringWithFormat:@"%d", [self.question44Answer selectedRowInComponent:0]],[NSString stringWithFormat:@"%d", [self.question45Answer selectedRowInComponent:0]], [self.q47A selectedRowInComponent:0],[NSString stringWithFormat:@"%d", question46aAnswerValue],[NSString stringWithFormat:@"%d", question46bAnswerValue],[NSString stringWithFormat:@"%d", question46cAnswerValue], nil];
 }
 
 - (IBAction)question46aAction:(UISwitch *)sender {
@@ -87,5 +84,9 @@
     self.question46bAnswer.hidden=isHidden;
     self.question46cLabel.hidden=isHidden;
     self.question46cAnswer.hidden=isHidden;
+}
+- (void)viewDidUnload {
+    [self setQ47A:nil];
+    [super viewDidUnload];
 }
 @end
